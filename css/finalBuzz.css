@@ -5,8 +5,14 @@ body{
 .fizzbuzzfinal{
     position: relative;
     top:200px;
+    left: 500px;
 }
-
+.fizzbuzzfinal span{
+    position: relative;
+    left: 13px;
+    font-size: 40px;
+    color: black;
+}
 .prev , .next{
     background-color: darkblue;
     color: white;
