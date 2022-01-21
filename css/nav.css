@@ -15,6 +15,15 @@ nav{
     height: 80px;
     z-index: 10;
 }
+
+.imglogo:hover{
+    -webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease; 
+    -ms-transition: all 1s ease; 
+    -o-transition: all 1s ease; 
+    transition: all 1s ease;
+    transform: rotate(360deg);
+}
 nav a{
     position: relative;
     height: 20px;
