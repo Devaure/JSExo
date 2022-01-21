@@ -4,7 +4,7 @@
  */
  function refresh(){
     var time = 1000; 
-    setTimeout('showDate()',time)
+    setTimeout('showDate()',time);
 }
 
 let horloge = document.getElementById('horloge');
@@ -29,7 +29,6 @@ function showMyDate() {
     //ajout 
     horloge.innerHTML = time;
     refresh();
-    console.log('ici')
  }
-
-showMyDate();
+ 
+ window.onload = showMyDate();
