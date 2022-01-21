@@ -9,16 +9,16 @@ function fizzBuzz() {
     for (var i = 1; i <= 100; i++) {
 
         if(i % 15 === 0){
-            divFizzBuzz.innerHTML += i+ " :FIZZBUZZ<br>";
+            divFizzBuzz.innerHTML += i+ " :FIZZBUZZ ";
            
         }else if (i % 3 === 0) {
-            divFizzBuzz.innerHTML += i+ " :FIZZ <br>";
+            divFizzBuzz.innerHTML += i+ " :FIZZ ";
           
         } else if(i % 5 === 0){
-            divFizzBuzz.innerHTML += i+ " :BUZZ<br>";
+            divFizzBuzz.innerHTML += i+ " :BUZZ ";
             console.log(i);
         }else{
-            divFizzBuzz.innerHTML += i+ " :))<br>";
+            divFizzBuzz.innerHTML += i+ " :))";
         }
     }
 }

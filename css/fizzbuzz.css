@@ -1,6 +1,14 @@
 #fizz-buzz{
+    display: flex;
     position: relative;
-    top: 100px;
+    top: 300px;
     font-weight: bold;
     color: black;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
 }
