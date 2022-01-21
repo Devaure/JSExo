@@ -1,6 +1,6 @@
 #container{
     position: relative;
-    top: 146px;
+    top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -10,43 +10,40 @@
 .cardone{
     position: relative;
     top: 123px;
-    color: rgb(23, 75, 82);
+    color: white;
     height: 250px;
     width: 200px;
-    background-color: rgb(24, 221, 146);
+    background-color: rgb(2, 19, 117);
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .cardone h2{
     position: relative;
-    margin: auto;
-    left: 25px;
-    top: 10px;
+    text-align: center;
+    top: 5px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .description{
     position: relative;
-    margin: auto;
-    left: 5px;
+    text-align: center;
     top: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-.button{
+.button{ 
     position: relative;
-    top: 114px;
-    left: 154px;
-    height: 46px;
-    width: 103px;
-    background-color: rgb(234, 238, 25);
+    top: 101px;
+    left: 132px;
+    background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .cardone a{
+    padding: 5px 15px 5px 15px;
     text-decoration: none;
     color: rgb(48, 106, 231);
 }
@@ -56,43 +53,40 @@
 .cardtwo{
     position: relative;
     top: 123px;
-    color: rgb(23, 75, 82);
+    color: white;
     height: 250px;
     width: 200px;
-    background-color: rgb(24, 221, 146);
+    background-color: rgb(2, 19, 117);
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .cardtwo h2{
     position: relative;
-    margin: auto;
-    left: 65px;
-    top: 10px;
+    text-align: center;
+    top: 5px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .descriptiontwo{
     position: relative;
-    margin: auto;
-    left: 5px;
+    text-align: center;
     top: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .buttontwo{
     position: relative;
-    top: 134px;
-    left: 134px;
-    height: 50px;
-    width: 103px;
-    background-color: rgb(234, 238, 25);
+    top: 101px;
+    left: 112px;
+    background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .cardtwo a{
+    padding: 5px 15px 5px 15px;
     text-decoration: none;
     color: rgb(48, 106, 231);
 }
@@ -103,43 +97,40 @@
 .cardthree{
     position: relative;
     top: 123px;
-    color: rgb(23, 75, 82);
+    color: white;
     height: 250px;
     width: 200px;
-    background-color: rgb(24, 221, 146);
+    background-color: rgb(2, 19, 117);
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .cardthree h2{
     position: relative;
-    margin: auto;
-    left: 65px;
-    top: 10px;
+    text-align: center;
+    top: 5px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .descriptionthree{
     position: relative;
-    margin: auto;
-    left: 5px;
+    text-align: center;
     top: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .buttonthree{
     position: relative;
-    top: 91px;
-    left: 128px;
-    height: 50px;
-    width: 103px;
-    background-color: rgb(234, 238, 25);
+    top: 84px;
+    left: 99px;
+    background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .cardthree a{
+    padding: 5px 15px 5px 15px;
     text-decoration: none;
     color: rgb(48, 106, 231);
 }
@@ -149,43 +140,40 @@
 .cardfor{
     position: relative;
     top: 123px;
-    color: rgb(23, 75, 82);
+    color: white;
     height: 250px;
     width: 200px;
-    background-color: rgb(24, 221, 146);
+    background-color: rgb(2, 19, 117);
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .cardfor h2{
     position: relative;
-    margin: auto;
-    left: 43px;
-    top: 10px;
+    text-align: center;
+    top: 5px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .descriptionfor{
     position: relative;
-    margin: auto;
-    left: 5px;
+    text-align: center;
     top: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .buttonfor{
     position: relative;
-    top: 134px;
-    left: 87px;
-    height: 50px;
-    width: 103px;
-    background-color: rgb(234, 238, 25);
+    top: 100px;
+    left: 63px;
+    background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 5px;
 }
 
 .cardfor a{
+    padding: 5px 15px 5px 15px;
     text-decoration: none;
     color: rgb(48, 106, 231);
 }
