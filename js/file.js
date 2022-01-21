@@ -19,7 +19,7 @@ document.addEventListener('load', main());
 
         for (let i = 0; i <= tabName.length - 1; i++) {
             let li = document.createElement('li');     
-            li.innerText = "list"+ tabName[i];     
+            li.innerText =  tabName[i];     
             li.setAttribute('style', 'display: block;'); 
             li.setAttribute("class", "styleList");
             ul.appendChild(li);

@@ -1,0 +1,96 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.cardone{
+    position: relative;
+    top: 123px;
+    color: rgb(23, 75, 82);
+    height: 250px;
+    width: 200px;
+    background-color: rgb(24, 221, 146);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cardone h2{
+    position: relative;
+    margin: auto;
+    left: 25px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description{
+    position: relative;
+    margin: auto;
+    left: 5px;
+    top: 50px;
+    font-size: 20px;
+}
+
+.button{
+    position: relative;
+    top: 111px;
+    left: 154px;
+    height: 46px;
+    width: 103px;
+    background-color: rgb(234, 238, 25);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cardone a{
+    text-decoration: none;
+    color: rgb(48, 106, 231);
+}
+
+/*carte deux Horloge*/
+
+.cardtwo{
+    position: relative;
+    top: 123px;
+    color: rgb(23, 75, 82);
+    height: 250px;
+    width: 200px;
+    background-color: rgb(24, 221, 146);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cardtwo h2{
+    position: relative;
+    margin: auto;
+    left: 65px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descriptiontwo{
+    position: relative;
+    margin: auto;
+    left: 5px;
+    top: 50px;
+    font-size: 20px;
+}
+
+.buttontwo{
+    position: relative;
+    top: 134px;
+    left: 134px;
+    height: 50px;
+    width: 103px;
+    background-color: rgb(234, 238, 25);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cardtwo a{
+    text-decoration: none;
+    color: rgb(48, 106, 231);
+}

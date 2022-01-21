@@ -4,7 +4,7 @@
  */
  function refresh(){
     var time = 1000; 
-    setTimeout('showDate()',time);
+    setTimeout(showMyDate,time);
 }
 
 let horloge = document.getElementById('horloge');
@@ -30,5 +30,5 @@ function showMyDate() {
     horloge.innerHTML = time;
     refresh();
  }
- 
+
  window.onload = showMyDate();
