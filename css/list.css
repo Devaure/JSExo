@@ -1,0 +1,8 @@
+#theList li{
+    position: relative;
+    left: 300px;
+    margin: auto;
+    font-style: italic;
+    font-size: 80px;
+    z-index: -10;
+}
