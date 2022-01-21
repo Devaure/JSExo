@@ -11,7 +11,7 @@ let horloge = document.getElementById('horloge');
 /**
  * Fonction qui permet de générer l'horloge 
  */
-function showDate() {
+function showMyDate() {
 
     //instanciation de l'horloge 
     var date = new Date()
@@ -32,4 +32,4 @@ function showDate() {
     console.log('ici')
  }
 
-showDate();
+showMyDate();

@@ -1,6 +1,10 @@
-document.addEventListener('load', function(){
+document.addEventListener('load', main());
 
-    var container = document.querySelector('#container');
+    function main(){
+        const container = document.querySelector('#containerList');
+        container.appendChild(createPersonnage());
+    }
+  
     /**
      * function qui permet delister les personnages
      */
@@ -13,16 +17,15 @@ document.addEventListener('load', function(){
         ul.setAttribute('style', 'padding: 0; margin: 0;');
         ul.setAttribute('id', 'theList');
 
-        for (i = 0; i <= tabName.lenght - 1; i++) {
-            var li = document.createElement('li');     
-            li.innerHTML = tabName[i];     
+        for (let i = 0; i <= tabName.length - 1; i++) {
+            let li = document.createElement('li');     
+            li.innerText = "list"+ tabName[i];     
             li.setAttribute('style', 'display: block;'); 
-
+            li.setAttribute("class", "styleList");
             ul.appendChild(li);
         }
-        container.appendChild(ul);    
+        return ul;    
     }
-})
 
 
 
