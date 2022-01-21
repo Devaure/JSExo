@@ -1,5 +1,6 @@
 nav{
     display: flex;
+    top: 0;
     justify-content: flex-end;
     position: fixed;
     background-color: darkblue;
@@ -12,11 +13,12 @@ nav a{
     height: 30px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: rgb(153, 200, 245);
-    font-size: 20px;
-    top:20px;
-    color: black;
+    background-color: rgb(150 226 80);
+    font-size: 24px;
+    top: 47px;
+    color: #295e6a;
     text-decoration: none;
     left: -26px;
     margin-left: 10px;
+    padding: 4px;
 }
