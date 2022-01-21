@@ -1,0 +1,15 @@
+#horloge{
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+    width: 77px;
+    border: 2px solid black;
+    color: white;
+    background-color: chartreuse;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin:auto;
+}
