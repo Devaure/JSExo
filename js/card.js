@@ -35,60 +35,19 @@ let fizzBuzz = {
     lien:"./html/exercice4.html"
 }
 
-/**
- * Fonction permettant de créer la carte de la liste
+/**descritiontwo buttontwo
+ * Fonction permettant de créer les cartes
  */
-function createCardList(){
+ function createCard(name,description, lien, classNameCard, nameButton, classNameDescription, classNameButton){
     let container = document.getElementById("container");
     var card = document.createElement("div");
-    card.className += "cardone";
-    card.innerHTML += "<h2>"+ listDesNoms.name + "</h2>";
-    card.innerHTML += "<p class='description'>" + listDesNoms.description + "</p>";
-    card.innerHTML += "<a class='button' href="+listDesNoms.lien+">Liste</a>";
+    card.className += classNameCard;
+    card.innerHTML += "<h2>"+ name + "</h2>";
+    card.innerHTML += "<p class="+classNameDescription+">" + description+ "</p>";
+    card.innerHTML += "<a class="+classNameButton+" href="+lien+">"+nameButton+"</a>";
     container.appendChild(card);
 }
-
-/**
- * Fonction permettant de créer la carte de l'hiorloge 
- */
- function createHorloge(){
-    let container = document.getElementById("container");
-    var card = document.createElement("div");
-    card.className += "cardtwo";
-    card.innerHTML += "<h2>"+ horloge.name + "</h2>";
-    card.innerHTML += "<p class='descriptiontwo'>" + horloge.description + "</p>";
-    card.innerHTML += "<a class='buttontwo' href="+horloge.lien+">Horloge</a>";
-    container.appendChild(card);
-}
-
-/**
- * Fonction permettant de créer la carte de l'hiorloge 
- */
- function createCardFizzBuzz(){
-    let container = document.getElementById("container");
-    var card = document.createElement("div");
-    card.className += "cardthree";
-    card.innerHTML += "<h2>"+ fizzBuzz.name + "</h2>";
-    card.innerHTML += "<p class='descriptionthree'>" + fizzBuzz.description + "</p>";
-    card.innerHTML += "<a class='buttonthree' href="+fizzBuzz.lien+">Fizz Buzz</a>";
-    container.appendChild(card);
-}
-
-/**
- * Fonction permettant de créer la carte de l'hiorloge 
- */
- function createCardFizzBuzzFinal(){
-    let container = document.getElementById("container");
-    var card = document.createElement("div");
-    card.className += "cardfor";
-    card.innerHTML += "<h2>"+ fizzBuzzFinal.name + "</h2>";
-    card.innerHTML += "<p class='descriptionfor'>" + fizzBuzzFinal.description + "</p>";
-    card.innerHTML += "<a class='buttonfor' href="+fizzBuzzFinal.lien+">Fizz Buzz Final</a>";
-    container.appendChild(card);
-}
-
-
-createCardFizzBuzzFinal();
-createCardFizzBuzz();
-createCardList();
-createHorloge();
+createCard(horloge.name,horloge.description,horloge.lien,"cardtwo", "Horloge","descriptiontwo", "buttontwo");
+createCard(listDesNoms.name,listDesNoms.description,listDesNoms.lien,"cardone","Liste Noms","description", "button");
+createCard(fizzBuzz.name,fizzBuzz.description,fizzBuzz.lien,"cardthree", "Fizz Buzz","descriptionthree", "buttonthree");
+createCard(fizzBuzzFinal.name,fizzBuzzFinal.description,fizzBuzzFinal.lien,"cardfor", "Fizz Buzz Final", "descriptionfor", "buttonfor");
