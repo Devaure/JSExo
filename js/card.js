@@ -35,7 +35,7 @@ let fizzBuzz = {
     lien:"./html/exercice4.html"
 }
 
-/**descritiontwo buttontwo
+/**
  * Fonction permettant de créer les cartes
  */
  function createCard(name,description, lien, classNameCard, nameButton, classNameDescription, classNameButton){
