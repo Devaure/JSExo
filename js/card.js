@@ -31,7 +31,7 @@ let fizzBuzz = {
  */
  let fizzBuzzFinal = {
     name: "FizzBuzzFinal",
-    description: "Permet d'afficher une horloge numérique qui affiche l'heure actuelle",
+    description: "Lorsque je clique sur next ou prev, j'affiche Fizz si c'est modulo de 3 sinon si c'est modulo de 5 Buzz sinon si c'est modulo de 15 FizzBuzz",
     lien:"./html/exercice4.html"
 }
 

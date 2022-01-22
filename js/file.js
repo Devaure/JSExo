@@ -6,7 +6,7 @@ document.addEventListener('load', main());
     }
   
     /**
-     * function qui permet delister les personnages
+     * function qui permet de lister les personnages
      */
     function createPersonnage(){
     
