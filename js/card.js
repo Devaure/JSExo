@@ -37,7 +37,13 @@ let fizzBuzz = {
 
 /**
  * Fonction permettant de créer les cartes
- * @param {name, description, lien, classNameCard,nameButton,classNameDescription,classNameButton}
+ * @param {*} name 
+ * @param {*} description 
+ * @param {*} lien 
+ * @param {string} classNameCard 
+ * @param {string} nameButton 
+ * @param {string} classNameDescription 
+ * @param {string} classNameButton 
  */
  function createCard(name,description, lien, classNameCard, nameButton, classNameDescription, classNameButton){
     let container = document.getElementById("container");
