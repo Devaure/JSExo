@@ -12,10 +12,9 @@ function fizzBuzz(i) {
         divFizzBuzzFinal.innerHTML = " :FIZZBUZZ<br>";
     } else if (i % 3 === 0) {
         divFizzBuzzFinal.innerHTML = " :FIZZ <br>";
-        console.log("Fizz");
+
     } else if (i % 5 === 0) {
         divFizzBuzzFinal.innerHTML = " :BUZZ<br>";
-        console.log(i);
     } else {
         divFizzBuzzFinal.innerHTML = "/:)"
     }

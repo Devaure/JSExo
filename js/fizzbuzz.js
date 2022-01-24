@@ -16,7 +16,6 @@ function fizzBuzz() {
           
         } else if(i % 5 === 0){
             divFizzBuzz.innerHTML += i+ " :BUZZ ";
-            console.log(i);
         }else{
             divFizzBuzz.innerHTML += i+ " :))";
         }
