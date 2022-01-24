@@ -42,13 +42,13 @@ function desIncrement() {
 /**
  * Fonction qui permet d'incrémenter de 1 au clique sur le boutton Next
  */
-buttonNext.addEventListener('click', function () {
-    increment();
+buttonPrev.addEventListener('click', function () {
+    desIncrement();
 })
 
 /**
  * Fonction qui permet d'incrémenter de 1 au clique sur le boutton Prev
  */
-buttonPrev.addEventListener('click', function () {
-    desIncrement();
+buttonNext.addEventListener('click', function () {
+    increment(); 
 })
